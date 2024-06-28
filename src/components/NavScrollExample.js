@@ -9,8 +9,8 @@ function NavScrollExample() {
         <nav className="navbar sticky-top z-10 navbar-expand-md navbar-light bg-light pt-7">
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/">
-                    <img src={logo} alt="react-router-breadcrumb" width="32" height="32" />
-                    HomeWork
+                    {/* <img src={logo} alt="react-router-breadcrumb" width="32" height="32" /> */}
+                    Resume
                 </Link>
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +29,7 @@ function NavScrollExample() {
                                 About Me
                             </Link>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link className="nav-link" to="/Message">
                                 Message
                             </Link>
@@ -38,7 +38,7 @@ function NavScrollExample() {
                             <Link className="nav-link" to="/Login">
                                 Login
                             </Link>
-                        </li>
+                        </li> */}
                         {/* <li className="nav-item dropdown">
                             <Link
                                 className="nav-link dropdown-toggle"

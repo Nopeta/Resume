@@ -61,23 +61,6 @@ const Footer = () => {
     );
 }
 
-const Nav = () => {
-    return ( <>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light rounded">
-            <div class="container-fluid">
-                <div class="collapse navbar-collapse justify-content-md-center">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <h1>Yu-Shin Chen's Resume</h1>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </>
-    )
-}
-
 function App() {
     const [ token, setToken ] = useState( null )
     const [ userName, setUserName ] = useState( '' )
