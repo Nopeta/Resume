@@ -21,7 +21,7 @@ export const Portfolio = () => {
                             <li>使用框架：AlpineJS、TAILWIND</li>
                             <li>2023/4/10~2023/7/31</li>
                         </ul>
-                        <a href="https://www.marjorie.co" className="btn btn-dark stretched-link">官方網站</a>
+                        <a href="https://www.marjorie.co" target="_blank" rel="noreferrer" className="btn btn-dark stretched-link">官方網站</a>
                     </div>
                 </div>
                 <div className="col col-md-3">
@@ -116,7 +116,7 @@ export const Portfolio = () => {
                             <li>使用框架：Vue.JS、TAILWIND</li>
                             <li>2022/10 ~ 2022/11</li>
                         </ul>
-                        {/* <a href="https://www.marjorie.co" className="btn btn-dark stretched-link">官方網站</a> */}
+                        <a href="https://docs.google.com/presentation/d/1vmWVjjll0wXTFNAGzfi6j_vEparpnQmt6nBRCArfWa8/edit?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-dark stretched-link">簡報</a>
                     </div>
                 </div>
                 <div className="col col-md-3">
@@ -132,7 +132,7 @@ export const Portfolio = () => {
                             <li>使用框架：Vue.JS、TAILWIND</li>
                             <li>2022/11 ~ 2022/12</li>
                         </ul>
-                        {/* <a href="https://www.marjorie.co" className="btn btn-dark stretched-link">官方網站</a> */}
+                        <a href="https://docs.google.com/presentation/d/1-knQCtV1JASQJzDnlumdvVLhqvfT8VnRVstrhixzrcs/edit?usp=sharing" className="btn btn-dark stretched-link">簡報</a>
                     </div>
                 </div>
             </div>
@@ -155,7 +155,7 @@ export const Portfolio = () => {
                             <li>使用程式語言：VB.NET、ASP.NET</li>
                             <li>2013/2~2013/4</li>
                         </ul>
-                        <a href="https://ocuap.ocu.edu.tw/teasatest/login.aspx" className="btn btn-dark stretched-link">績優導師評量</a>
+                        <a href="https://ocuap.ocu.edu.tw/teasatest/login.aspx" target="_blank" rel="noreferrer" className="btn btn-dark stretched-link">績優導師評量</a>
                     </div>
                 </div>
                 <div className="col col-md-3">
@@ -169,7 +169,7 @@ export const Portfolio = () => {
                             <li>使用程式語言：VB.NET、ASP.NET</li>
                             <li>2018/7~2018/9</li>
                         </ul>
-                        <a href="https://ocuap.ocu.edu.tw/stuacc/login.aspx" className="btn btn-dark stretched-link">學生銀行帳號系統</a>
+                        <a href="https://ocuap.ocu.edu.tw/stuacc/login.aspx" target="_blank" rel="noreferrer" className="btn btn-dark stretched-link">學生銀行帳號系統</a>
                     </div>
                 </div>
                 <div className="col col-md-3">
@@ -202,7 +202,7 @@ export const Portfolio = () => {
                             <li>使用程式語言：VB.NET、ASP.NET</li>
                             <li>2021/4~2021/4</li>
                         </ul>
-                        <button className="btn btn-dark stretched-link">領取學位證書方式意願調查</button>
+                        <a href="https://ocuap.ocu.edu.tw/geg_adres/index.aspx" target="_blank" rel="noreferrer" className="btn btn-dark stretched-link">領取學位證書方式意願調查</a>
                     </div>
                 </div>
 
@@ -296,5 +296,26 @@ export const Portfolio = () => {
             </div>
         </div>
 
+        <br />
+
+        <div id="portfolio-4">
+            <h3>委託</h3>
+            <div className="row row-cols-1 row-cols-md-4 g-1 w-100 mb-1">
+                <div className="col col-md-3">
+                    <div className="card p-3 h-100">
+                        <h5 className="card-title">瑞鑫專案</h5>
+                        <blockquote className="h-100">
+                            <p className="card-text">公司介紹網站。</p>
+                        </blockquote>
+                        <ul>
+                            <li>前端</li>
+                            <li>使用框架：Bootstrap</li>
+                            <li>2024/01/05 ~ 2024/01/22</li>
+                        </ul>
+                        <a href="https://www.rs.rasin1987.com.tw/" target="_blank" rel="noreferrer" className="btn btn-dark stretched-link">網站</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </>
 }
