@@ -152,7 +152,7 @@ export const Portfolio = () => {
                         <ul>
                             <li>全端</li>
                             <li>使用工具：VS 2013</li>
-                            <li>使用程式語言：VB.NET、ASP.NET</li>
+                            <li>使用程式語言：ASP.NET（VB）</li>
                             <li>2013/2~2013/4</li>
                         </ul>
                         <a href="https://ocuap.ocu.edu.tw/teasatest/login.aspx" target="_blank" rel="noreferrer" className="btn btn-dark stretched-link">績優導師評量</a>
@@ -166,7 +166,7 @@ export const Portfolio = () => {
                         <ul>
                             <li>全端</li>
                             <li>使用工具：VS 2013</li>
-                            <li>使用程式語言：VB.NET、ASP.NET</li>
+                            <li>使用程式語言：ASP.NET（VB）</li>
                             <li>2018/7~2018/9</li>
                         </ul>
                         <a href="https://ocuap.ocu.edu.tw/stuacc/login.aspx" target="_blank" rel="noreferrer" className="btn btn-dark stretched-link">學生銀行帳號系統</a>
@@ -184,7 +184,7 @@ export const Portfolio = () => {
                         <ul>
                             <li>全端</li>
                             <li>使用工具：VS 2013</li>
-                            <li>使用程式語言：VB.NET、ASP.NET</li>
+                            <li>使用程式語言：ASP.NET（VB）</li>
                             <li>2018/8~2018/9</li>
                         </ul>
                         <button className="btn btn-light stretched-link">連結已撤下</button>
@@ -199,7 +199,7 @@ export const Portfolio = () => {
                         <ul>
                             <li>全端</li>
                             <li>使用工具：VS 2013</li>
-                            <li>使用程式語言：VB.NET、ASP.NET</li>
+                            <li>使用程式語言：ASP.NET（VB）</li>
                             <li>2021/4</li>
                         </ul>
                         <a href="https://ocuap.ocu.edu.tw/geg_adres/index.aspx" target="_blank" rel="noreferrer" className="btn btn-dark stretched-link">領取學位證書方式意願調查</a>
