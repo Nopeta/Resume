@@ -200,7 +200,7 @@ export const Portfolio = () => {
                             <li>全端</li>
                             <li>使用工具：VS 2013</li>
                             <li>使用程式語言：VB.NET、ASP.NET</li>
-                            <li>2021/4~2021/4</li>
+                            <li>2021/4</li>
                         </ul>
                         <a href="https://ocuap.ocu.edu.tw/geg_adres/index.aspx" target="_blank" rel="noreferrer" className="btn btn-dark stretched-link">領取學位證書方式意願調查</a>
                     </div>
