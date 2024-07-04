@@ -13,12 +13,13 @@ export const Portfolio = () => {
                     <div className="card p-3 h-100">
                         <h5 className="card-title">官方網站</h5>
                         <blockquote className="h-100">
-                            <p className="card-text">Marjorie品牌女裝服飾賣場，符合SEO標準，RWD 響應式設計，使網站在任一裝置都能符合裝置進行操作。</p>
+                            <p className="card-text">Marjorie品牌女裝服飾賣場，符合SEO標準，RWD 響應式設計，使網站在任一裝置都能符合裝置進行操作之線上賣場。</p>
                         </blockquote>
                         <ul>
+                            <li>前端</li>
                             <li>UI設計工具：Figma</li>
                             <li>使用框架：AlpineJS、TAILWIND</li>
-                            <li>2023/4~2023/7</li>
+                            <li>2023/4/10~2023/7/31</li>
                         </ul>
                         <a href="https://www.marjorie.co" className="btn btn-dark stretched-link">官方網站</a>
                     </div>
@@ -27,28 +28,28 @@ export const Portfolio = () => {
                     <div className="card p-3 h-100">
                         <h5 className="card-title">會計系統</h5>
                         <blockquote className="h-100">
-                            <p className="card-text">學生填寫匯款銀行帳號，行政單位檢核學生帳戶資料以便後續退款作業。<br /><br /></p></blockquote>
+                            <p className="card-text">日記簿、資產負債表、損益表、分類帳、門市請款拋轉、會計科目設定等相關會計系統。<br /><br /></p></blockquote>
                         <ul>
-                            <li>使用工具：VS 2013</li>
-                            <li>使用程式語言：VB.NET、ASP.NET</li>
-                            <li>2023/9~2023/11</li>
+                            <li>全端</li>
+                            <li>使用框架：Laravel livewire、AlpineJS、Bootstrap</li>
+                            <li>2023/08/16~2023/11/07</li>
                         </ul>
-                        <a href="https://ocuap.ocu.edu.tw/stuacc/login.aspx" className="btn btn-dark stretched-link">學生銀行帳號系統</a>
+                        <button className="btn btn-light stretched-link">-</button>
                     </div>
                 </div>
                 <div className="col col-md-3">
                     <div className="card p-3 h-100">
                         <h5 className="card-title">人事系統</h5>
                         <blockquote className="h-100">
-                            <p className="card-text">提供學生查看學雜費資訊，行政人員檢核學生註冊狀況。</p>
+                            <p className="card-text">系統權限設定、人是基本資料建置與查看、考勤相關規則設定與員工考勤列表。</p>
                         </blockquote>
                         <div>
 
                         </div>
                         <ul>
-                            <li>使用工具：VS 2013</li>
-                            <li>使用程式語言：VB.NET、ASP.NET</li>
-                            <li>2023/12</li>
+                            <li>全端</li>
+                            <li>使用框架：Laravel livewire、AlpineJS、Bootstrap</li>
+                            <li>2023/12/01~2023/12/26</li>
                         </ul>
                         <button className="btn btn-light stretched-link">-</button>
                     </div>
@@ -57,12 +58,12 @@ export const Portfolio = () => {
                     <div className="card p-3 h-100">
                         <h5 className="card-title">電子表單</h5>
                         <blockquote className="h-100">
-                            <p className="card-text">疫情期間，因畢業典禮未舉行，故需向畢業生進行調查領取學位證書的方式要以寄送或到校領取的方式產生之系統。</p>
+                            <p className="card-text">各類電子表單申請（請假單、補打卡單、加班單⋯⋯）與主管審查功能、個人打卡紀錄查看等，因內部因素，目前僅個人打卡紀錄補打卡申請與審核上線。</p>
                         </blockquote>
                         <ul>
-                            <li>使用工具：VS 2013</li>
-                            <li>使用程式語言：VB.NET、ASP.NET</li>
-                            <li>2021/4~2021/4</li>
+                            <li>全端</li>
+                            <li>使用框架：Laravel livewire、AlpineJS、Bootstrap</li>
+                            <li>2024/01/10~持續建置</li>
                         </ul>
                         <button className="btn btn-light stretched-link">-</button>
                     </div>
@@ -71,12 +72,12 @@ export const Portfolio = () => {
                     <div className="card p-3 h-100">
                         <h5 className="card-title">排班</h5>
                         <blockquote className="h-100">
-                            <p className="card-text">疫情期間，因畢業典禮未舉行，故需向畢業生進行調查領取學位證書的方式要以寄送或到校領取的方式產生之系統。</p>
+                            <p className="card-text">門市排班系統。</p>
                         </blockquote>
                         <ul>
-                            <li>使用工具：VS 2013</li>
-                            <li>使用程式語言：VB.NET、ASP.NET</li>
-                            <li>2021/4~2021/4</li>
+                            <li>全端</li>
+                            <li>使用框架：Laravel livewire、AlpineJS、Bootstrap</li>
+                            <li>2024/03/~2024/05/08</li>
                         </ul>
                         <button className="btn btn-light stretched-link">-</button>
                     </div>
@@ -85,14 +86,14 @@ export const Portfolio = () => {
                     <div className="card p-3 h-100">
                         <h5 className="card-title">簽呈</h5>
                         <blockquote className="h-100">
-                            <p className="card-text">疫情期間，因畢業典禮未舉行，故需向畢業生進行調查領取學位證書的方式要以寄送或到校領取的方式產生之系統。</p>
+                            <p className="card-text">內部簽呈系統，含建立、送出、簽核（收）與歸檔流程。</p>
                         </blockquote>
                         <ul>
-                            <li>使用工具：VS 2013</li>
-                            <li>使用程式語言：VB.NET、ASP.NET</li>
-                            <li>2021/4~2021/4</li>
+                            <li>全端</li>
+                            <li>使用框架：Laravel livewire、AlpineJS、Bootstrap</li>
+                            <li>2024/06/14~2024/07/01</li>
                         </ul>
-                        <a href="#" className="btn btn-dark stretched-link">領取學位證書方式意願調查</a>
+                        <button className="btn btn-light stretched-link">-</button>
                     </div>
                 </div>
             </div>
@@ -107,9 +108,10 @@ export const Portfolio = () => {
                     <div className="card p-3 h-100">
                         <h5 className="card-title">Post 專案</h5>
                         <blockquote className="h-100">
-                            <p className="card-text">設計出簡單的BLOG設計並套用CRUD。</p>
+                            <p className="card-text">簡單的Post系統，涵蓋CRUD功能。</p>
                         </blockquote>
                         <ul>
+                            <li>前端</li>
                             <li>UI設計工具：Figma</li>
                             <li>使用框架：Vue.JS、TAILWIND</li>
                             <li>2022/10 ~ 2022/11</li>
@@ -125,6 +127,7 @@ export const Portfolio = () => {
                                 提供管理員於網站上新增並管理會議室外顯示器，使會員借用會議室時更為便利。</p>
                         </blockquote>
                         <ul>
+                            <li>前端</li>
                             <li>UI設計工具：Figma</li>
                             <li>使用框架：Vue.JS、TAILWIND</li>
                             <li>2022/11 ~ 2022/12</li>
@@ -147,6 +150,7 @@ export const Portfolio = () => {
                             <p className="card-text">提供學生評量導師指導狀況，並留下感想；後臺提供行政單位查看並統計數據。</p>
                         </blockquote>
                         <ul>
+                            <li>全端</li>
                             <li>使用工具：VS 2013</li>
                             <li>使用程式語言：VB.NET、ASP.NET</li>
                             <li>2013/2~2013/4</li>
@@ -160,6 +164,7 @@ export const Portfolio = () => {
                         <blockquote className="h-100">
                             <p className="card-text">學生填寫匯款銀行帳號，行政單位檢核學生帳戶資料以便後續退款作業。<br /><br /></p></blockquote>
                         <ul>
+                            <li>全端</li>
                             <li>使用工具：VS 2013</li>
                             <li>使用程式語言：VB.NET、ASP.NET</li>
                             <li>2018/7~2018/9</li>
@@ -177,6 +182,7 @@ export const Portfolio = () => {
 
                         </div>
                         <ul>
+                            <li>全端</li>
                             <li>使用工具：VS 2013</li>
                             <li>使用程式語言：VB.NET、ASP.NET</li>
                             <li>2018/8~2018/9</li>
@@ -191,11 +197,12 @@ export const Portfolio = () => {
                             <p className="card-text">疫情期間，因畢業典禮未舉行，故需向畢業生進行調查領取學位證書的方式要以寄送或到校領取的方式產生之系統。</p>
                         </blockquote>
                         <ul>
+                            <li>全端</li>
                             <li>使用工具：VS 2013</li>
                             <li>使用程式語言：VB.NET、ASP.NET</li>
                             <li>2021/4~2021/4</li>
                         </ul>
-                        <a href="#" className="btn btn-dark stretched-link">領取學位證書方式意願調查</a>
+                        <button className="btn btn-dark stretched-link">領取學位證書方式意願調查</button>
                     </div>
                 </div>
 
@@ -208,6 +215,7 @@ export const Portfolio = () => {
                             <blockquote>
                                 <p className="card-text">查看學生與教職員卡號，並可查看職員打卡紀錄。<br /><br /></p></blockquote>
                             <ul>
+                                <li>全端</li>
                                 <li>使用工具：VS 2010</li>
                                 <li>使用程式語言：VB.NET</li>
                                 <li>2013/7~2013/8</li>
@@ -245,6 +253,7 @@ export const Portfolio = () => {
                                 <p className="card-text">每年重覆需要提供相似查詢資料，為求便利與使用者可不需要再度跨單位求資料，建置出可讓單位自行匯出所需要的報表明細。</p>
                             </blockquote>
                             <ul>
+                                <li>全端</li>
                                 <li>使用工具：VS 2010</li>
                                 <li>使用程式語言：VB.NET</li>
                                 <li>2013/6~2021/12</li>

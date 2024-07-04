@@ -4,7 +4,7 @@ export const Work = () => {
     return <>
         <h2>工作經歷</h2><h4>Professional Experience</h4>
         <hr />
-        <table className="table  table-bordered table-striped table-hover">
+        <table className="table table-bordered table-striped table-hover">
             <thead className="table-dark">
                 <tr>
                     <th>公司</th>

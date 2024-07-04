@@ -39,7 +39,7 @@ export default function AboutMe() {
                                 <nav className="nav nav-pills flex-column">
                                     <a className="nav-link ms-3 my-1" href="#portfolio-1">瑪裘瑞有限公司</a>
                                     <a className="nav-link ms-3 my-1" href="#portfolio-2">創科資訊股份有限公司</a>
-                                    <a className="nav-link ms-3 my-1" href="#portfolio-2">僑光科技大學</a>
+                                    <a className="nav-link ms-3 my-1" href="#portfolio-3">僑光科技大學</a>
                                 </nav>
                             </nav>
                         </nav>
@@ -71,10 +71,13 @@ export default function AboutMe() {
                             <div id="summary">
                                 <h2>簡歷</h2><h4>Summary</h4>
                                 <hr />
-                                <blockquote>
-                                    <p><span>大學畢業後便在僑光科技大學資訊單位就業十年，協助工程師與使用者間的溝通協調，並額外建置相關小系統供使用者能方便查詢資料與相關伺服器維護；喜歡繪圖與網頁建置，對於動態網頁設計與多媒體相關軟體有高度的興趣。</span>
-                                    </p>
-                                </blockquote>
+                                {/* <blockquote> */}
+                                <p>
+                                    {/* <span>大學畢業後便在僑光科技大學資訊單位就業十年，協助工程師與使用者間的溝通協調，並額外建置相關小系統供使用者能方便查詢資料與相關伺服器維護；喜歡繪圖與網頁建置，對於動態網頁設計與多媒體相關軟體有高度的興趣。</span>
+                                    <p> */}
+                                    <span>喜歡撰寫程式與熟悉多媒體相關操作，軟體上手能力佳，具有良好的學習能力，喜歡學習新的事物和技術。</span>
+                                </p>
+                                {/* </blockquote> */}
                             </div>
 
                             <br />
