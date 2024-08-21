@@ -3,6 +3,7 @@ import { Skill } from '../components/About/Skill';
 import { Work } from '../components/About/Work';
 // import pic from '../personal_pic.webp';
 import pic from '../360x360.jpg';
+import React, { useEffect } from 'react';
 
 const Nav = () => {
     return ( <>
@@ -21,7 +22,21 @@ const Nav = () => {
     )
 }
 
+
+
+
 export default function AboutMe() {
+
+    useEffect( () => {
+        // 確保 Bootstrap 的 JS 已加載
+        const scrollSpyElement = document.querySelector( '[data-bs-spy="scroll"]' );
+        if ( scrollSpyElement && window.bootstrap ) {
+            new window.bootstrap.ScrollSpy( scrollSpyElement );
+        } else {
+            console.error( 'Bootstrap ScrollSpy initialization failed.' );
+        }
+    }, [] ); // 空依賴數組確保只在組件掛載後執行一次
+
     return ( <>
 
         <div>
@@ -29,7 +44,7 @@ export default function AboutMe() {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-0 col-md-2">
-                        <nav id="navbar-example3" className=" h-100 flex-column align-items-stretch pe-4 border-end">
+                        <nav id="navbar-example3" className="h-100 flex-column align-items-stretch pe-4 border-end">
                             <nav className="sticky-top nav nav-pills flex-column" style={{ top: '9rem' }}>
                                 <a className="nav-link" href="#profile">基本資料</a>
                                 <a className="nav-link" href="#summary">履歷 Summary</a>
