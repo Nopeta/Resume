@@ -43,7 +43,7 @@ const Footer = () => {
     <>
       <footer className='footer mt-auto py-1 bg-light'>
         <div className="container">
-          <p className="text-center text-muted">© 2022 Cat</p>
+          <p className="text-center text-muted">© 2022~2024 Shin</p>
         </div>
       </footer>
 

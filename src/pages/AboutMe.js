@@ -1,7 +1,8 @@
 import { Portfolio } from '../components/About/Portfolio';
 import { Skill } from '../components/About/Skill';
 import { Work } from '../components/About/Work';
-import pic from '../personal_pic.webp';
+// import pic from '../personal_pic.webp';
+import pic from '../360x360.jpg';
 
 const Nav = () => {
     return ( <>

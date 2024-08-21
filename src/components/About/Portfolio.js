@@ -312,7 +312,7 @@ export const Portfolio = () => {
                             <li>使用框架：Bootstrap</li>
                             <li>2024/01/05 ~ 2024/01/22</li>
                         </ul>
-                        <a href="https://www.rs.rasin1987.com.tw/" target="_blank" rel="noreferrer" className="btn btn-dark stretched-link">網站</a>
+                        <a href="http://www.rs.rasin1987.com.tw/" target="_blank" rel="noreferrer" className="btn btn-dark stretched-link">網站</a>
                     </div>
                 </div>
             </div>
