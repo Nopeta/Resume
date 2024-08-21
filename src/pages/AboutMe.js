@@ -47,7 +47,7 @@ export default function AboutMe() {
                         </nav>
                     </div>
 
-                    <div className="col-12 col-md-10">
+                    <div className="col-12 col-md-10 pe-4">
                         <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" className="scrollspy-example-2" tabIndex="0">
                             <div id="profile">
                                 <div className="row">
