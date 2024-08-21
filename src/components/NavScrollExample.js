@@ -8,7 +8,7 @@ function NavScrollExample() {
 
         <nav className="navbar sticky-top z-10 navbar-expand-md navbar-light bg-light pt-7">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/">
+                <Link className="navbar-brand" to="/Resume">
                     {/* <img src={logo} alt="react-router-breadcrumb" width="32" height="32" /> */}
                     Resume
                 </Link>
@@ -25,7 +25,7 @@ function NavScrollExample() {
                             </Link>
                         </li> */}
                         <li className="nav-item">
-                            <Link className="nav-link" to="/AboutMe">
+                            <Link className="nav-link" to="/Resume/about_me">
                                 About Me
                             </Link>
                         </li>

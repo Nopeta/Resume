@@ -5,28 +5,28 @@ import Login from '../pages/Login.js';
 
 const routes = [
     {
-        path: '/',
+        path: '/Resume',
         element: <p>回到首頁</p>,
         exact: true,
         breadcrumbName: 'Home'
     },
     {
-        path: '/aboutme',
+        path: '/Resume/about_me',
         element: <AboutMe />,
         breadcrumbName: 'About Me'
     },
     {
-        path: '/message',
+        path: '/Resume/message',
         element: <Message />,
         breadcrumbName: 'Message'
     },
     {
-        path: '/login',
+        path: '/Resume/login',
         element: <Login />,
         breadcrumbName: 'Login'
     },
     {
-        path: '/logout',
+        path: '/Resume/logout',
         element: <main style={{ padding: "1rem" }}><p>ＮＯ網頁</p></main>,
         breadcrumbName: 'Logout'
     },
