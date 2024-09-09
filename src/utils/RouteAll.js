@@ -4,17 +4,22 @@ import Login from '../pages/Login.js';
 // import SignUp from '../pages/SignUp.js';
 
 const routes = [
+    // {
+    //     path: '/Resume',
+    //     element: <p>回到首頁</p>,
+    //     exact: true,
+    //     breadcrumbName: 'Home'
+    // },
     {
         path: '/Resume',
-        element: <p>回到首頁</p>,
-        exact: true,
-        breadcrumbName: 'Home'
-    },
-    {
-        path: '/Resume/about_me',
         element: <AboutMe />,
         breadcrumbName: 'About Me'
     },
+    // {
+    //     path: '/Resume/about_me',
+    //     element: <AboutMe />,
+    //     breadcrumbName: 'About Me'
+    // },
     {
         path: '/Resume/message',
         element: <Message />,

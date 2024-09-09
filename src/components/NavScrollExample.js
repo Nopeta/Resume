@@ -24,11 +24,11 @@ function NavScrollExample() {
                                 Home
                             </Link>
                         </li> */}
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link className="nav-link" to="/Resume/about_me">
                                 About Me
                             </Link>
-                        </li>
+                        </li> */}
                         {/* <li className="nav-item">
                             <Link className="nav-link" to="/Message">
                                 Message
