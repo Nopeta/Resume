@@ -7,7 +7,7 @@ export const Portfolio = () => {
         <hr />
 
         <div id="portfolio-1">
-            <h3>Marjorie 瑪裘瑞有限公司</h3>
+            <h3>Marjorie 瑪裘瑞有限公司（原名 易栗有限公司）</h3>
             <div className="row row-cols-1 row-cols-md-4 g-1 w-100 mb-1">
                 <div className="col col-md-3">
                     <div className="card p-3 h-100">

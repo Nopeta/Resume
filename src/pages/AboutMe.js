@@ -53,7 +53,7 @@ export default function AboutMe() {
                                 <a className="nav-link" href="#skill">技能 Skills</a>
                                 <a className="nav-link" href="#portfolio">專案 Portfolio</a>
                                 <nav className="nav nav-pills flex-column">
-                                    <a className="nav-link ms-3 my-1" href="#portfolio-1">瑪裘瑞有限公司</a>
+                                    <a className="nav-link ms-3 my-1" href="#portfolio-1">Marjorie</a>
                                     <a className="nav-link ms-3 my-1" href="#portfolio-2">創科資訊股份有限公司</a>
                                     <a className="nav-link ms-3 my-1" href="#portfolio-3">僑光科技大學</a>
                                     <a className="nav-link ms-3 my-1" href="#portfolio-4">委託</a>
