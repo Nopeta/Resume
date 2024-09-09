@@ -15,7 +15,7 @@ export const Work = () => {
             </thead>
             <tbody>
                 <tr>
-                    <td>瑪裘瑞有限公司</td>
+                    <td>瑪裘瑞有限公司（原名 易栗有限公司）</td>
                     <td>前端工程師</td>
                     <td>2023/04 - 2024/08</td>
                     <td>
