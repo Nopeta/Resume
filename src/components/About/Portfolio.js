@@ -41,7 +41,7 @@ export const Portfolio = () => {
                     <div className="card p-3 h-100">
                         <h5 className="card-title">人事系統</h5>
                         <blockquote className="h-100">
-                            <p className="card-text">系統權限設定、人是基本資料建置與查看、考勤相關規則設定與員工考勤列表。</p>
+                            <p className="card-text">系統權限設定、人是基本資料建置與查看、員工考勤相關功能（打卡紀錄、管理審核：特休、補休、假單、加班、補打卡⋯⋯等）。</p>
                         </blockquote>
                         <div>
 
@@ -49,7 +49,7 @@ export const Portfolio = () => {
                         <ul>
                             <li>全端</li>
                             <li>使用框架：Laravel livewire、AlpineJS、Bootstrap</li>
-                            <li>2023/12/01~2023/12/26</li>
+                            <li>2023/12/01~2024/08/30</li>
                         </ul>
                         <button className="btn btn-light stretched-link">-</button>
                     </div>
@@ -63,7 +63,7 @@ export const Portfolio = () => {
                         <ul>
                             <li>全端</li>
                             <li>使用框架：Laravel livewire、AlpineJS、Bootstrap</li>
-                            <li>2024/01/10~持續建置</li>
+                            <li>2024/01/10~2024/08/30</li>
                         </ul>
                         <button className="btn btn-light stretched-link">-</button>
                     </div>
