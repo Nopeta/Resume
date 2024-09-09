@@ -55,13 +55,19 @@ export const Skill = () => {
                     </td>
                 </tr>
                 <tr>
+                    <td>UI / UX</td>
+                    <td><ul>
+                        <li>Figma</li>
+                    </ul></td>
+                </tr>
+                <tr>
                     <td>文書處理</td>
                     <td><ul>
                         <li>Microsoft  Office</li>
                     </ul></td>
                 </tr>
-                <tr>
-                    <td>繪畫</td>
+                {/* <tr>
+                    <td>圖像</td>
                     <td>
                         <ul>
                             <li>Adobe PhotoShop</li>
@@ -80,7 +86,7 @@ export const Skill = () => {
                             <li>Final Cut Pro</li>
                         </ul>
                     </td>
-                </tr>
+                </tr> */}
                 <tr>
                     <td>語言</td>
                     <td>
