@@ -6,16 +6,16 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 function NavScrollExample() {
     return (
 
-        <nav className="navbar sticky-top z-10 navbar-expand-md navbar-light bg-light pt-7">
+        <nav className="navbar sticky-top z-10 navbar-expand-md navbar-light bg-light pt-7" style={{ zIndex: 1999 }}>
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/Resume">
                     {/* <img src={logo} alt="react-router-breadcrumb" width="32" height="32" /> */}
                     Resume
                 </Link>
 
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
-                </button>
+                </button> */}
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">

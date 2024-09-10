@@ -2,7 +2,7 @@ import { Portfolio } from '../components/About/Portfolio';
 import { Skill } from '../components/About/Skill';
 import { Work } from '../components/About/Work';
 // import pic from '../personal_pic.webp';
-import pic from '../360x360.jpg';
+import pic from '../image/360x360.jpg';
 import React, { useEffect } from 'react';
 
 const Nav = () => {
