@@ -7,7 +7,7 @@ export const Portfolio = () => {
         <hr />
 
         <div id="portfolio-1">
-            <h3>Marjorie 瑪裘瑞有限公司（原名 易栗有限公司）</h3>
+            <h3>Marjorie 瑪裘瑞有限公司</h3>
             <div className="row row-cols-1 row-cols-md-4 g-1 w-100 mb-1">
                 <div className="col col-md-3">
                     <div className="card p-3 h-100">
@@ -132,7 +132,7 @@ export const Portfolio = () => {
                             <li>使用框架：Vue.JS、TAILWIND</li>
                             <li>2022/11 ~ 2022/12</li>
                         </ul>
-                        <a href="https://docs.google.com/presentation/d/1-knQCtV1JASQJzDnlumdvVLhqvfT8VnRVstrhixzrcs/edit?usp=sharing" className="btn btn-dark stretched-link">簡報</a>
+                        <a href="https://docs.google.com/presentation/d/1-knQCtV1JASQJzDnlumdvVLhqvfT8VnRVstrhixzrcs/edit?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-dark stretched-link">簡報</a>
                     </div>
                 </div>
             </div>
@@ -313,6 +313,34 @@ export const Portfolio = () => {
                             <li>2024/01/05 ~ 2024/01/22</li>
                         </ul>
                         <a href="http://www.rs.rasin1987.com.tw/" target="_blank" rel="noreferrer" className="btn btn-dark stretched-link">網站</a>
+                    </div>
+                </div>
+                <div className="col col-md-3">
+                    <div className="card p-3 h-100">
+                        <h5 className="card-title">機場接送前端轉版專案</h5>
+                        <blockquote className="h-100">
+                            <p className="card-text">依公司需求，提供轉版技術(Nuxt.js)支援。</p>
+                        </blockquote>
+                        <ul>
+                            <li>前端</li>
+                            <li>使用框架：Nuxt.js, Bootstrap</li>
+                            <li>2024/01/05 ~ 2024/01/22</li>
+                        </ul>
+                        <a href="https://www.carbubu.tw/" target="_blank" rel="noreferrer" className="btn btn-dark stretched-link">網站</a>
+                    </div>
+                </div>
+                <div className="col col-md-3">
+                    <div className="card p-3 h-100">
+                        <h5 className="card-title">名作復活前端改版專案</h5>
+                        <blockquote className="h-100">
+                            <p className="card-text">優化畫面排版，提升使用者體驗。。</p>
+                        </blockquote>
+                        <ul>
+                            <li>前端</li>
+                            <li>使用框架：Bootstrap</li>
+                            <li>2024/01/05 ~ 2024/01/22</li>
+                        </ul>
+                        <a href="https://comicrevive.com/" target="_blank" rel="noreferrer" className="btn btn-dark stretched-link">網站</a>
                     </div>
                 </div>
             </div>
